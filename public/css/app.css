@@ -1,0 +1,17 @@
+.p-15 {
+    padding: 15px 0;
+}
+
+.task-details {
+    resize: none;
+    height: 130px !important;
+}
+
+.has-error input {
+    border: 1px solid #f8d7da;
+}
+
+.error-help-block {
+    color: #721c24;
+    font-size: 13px;
+}
