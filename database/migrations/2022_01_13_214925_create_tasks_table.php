@@ -18,7 +18,7 @@ class CreateTasksTable extends Migration
             $table->integer('user_id');
             $table->string('title');
             $table->text('details')->nullable();
-            $table->enum('status', ['To Do', 'On Process', 'Done'])->nullable()->default('To Do');
+            $table->enum('status', ['To Do', 'In Process', 'Done'])->nullable()->default('To Do');
             $table->timestamps();
         });
     }

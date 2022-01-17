@@ -4,7 +4,7 @@ return [
 
     'statuses' => [
         'To Do',
-        'On Process',
+        'In Process',
         'Done'
     ]
 
